@@ -7,7 +7,7 @@ public class SWITCH {
         this.isOn= true;
     }
 
-    private void apagarSwitch(){
+    public void apagarSwitch(){
         this.isOn= false;
     }
 
