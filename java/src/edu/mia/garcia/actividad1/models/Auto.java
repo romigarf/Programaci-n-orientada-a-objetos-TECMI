@@ -1,5 +1,7 @@
-package edu.mia.garcia.actividad1.data;
-
+package edu.mia.garcia.actividad1.models;
+/**
+ * Clase que representa un auto disponible para la venta.
+ */
 public class Auto {
     private String num;
     private String modelo;

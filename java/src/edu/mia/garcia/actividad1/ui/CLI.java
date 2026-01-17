@@ -1,14 +1,16 @@
 package edu.mia.garcia.actividad1.ui;
 
 import edu.mia.garcia.actividad1.process.ShopManager;
-import edu.mia.garcia.actividad1.data.Auto;
+import edu.mia.garcia.actividad1.models.Auto;
 import edu.mia.garcia.actividad1.data.Ticket;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+/**
+ * Clase encargada de la interacción con el usuario por consola.
+ */
 public class CLI {
     private ShopManager shopManager;
     private List<Auto> carrito;

@@ -1,7 +1,11 @@
 package edu.mia.garcia.actividad1.data;
 
-import java.util.List;
+import edu.mia.garcia.actividad1.models.Auto;
 
+import java.util.List;
+/**
+ * Clase que genera el ticket de compra del cliente.
+ */
 public class Ticket {
 
     private String nombreCliente;

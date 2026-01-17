@@ -1,10 +1,12 @@
 package edu.mia.garcia.actividad1.process;
 
-import edu.mia.garcia.actividad1.data.Auto;
+import edu.mia.garcia.actividad1.models.Auto;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Clase que administra el catálogo de autos.
+ */
 public class ShopManager {
     private List <Auto> carList;
 
@@ -16,6 +18,9 @@ public class ShopManager {
         System.out.println(this.carList);
 
     }
+    /**
+     * Devuelve la lista de autos disponibles.
+     */
     public List<Auto> getCarList() {
         return carList;
     }
