@@ -1,10 +1,10 @@
-package edu.mia.garcia.actividad1.ui;
+package edu.mia.garcia.test.ui;
 
-import edu.mia.garcia.actividad1.process.SWITCH;
+import edu.mia.garcia.test.process.SWITCH;
 
 import java.util.Scanner;
 
-public class CLI {
+public class CLITEST {
     public static void start(){
         SWITCH switch_wifi= new SWITCH();
         Scanner scanner= new Scanner(System.in);

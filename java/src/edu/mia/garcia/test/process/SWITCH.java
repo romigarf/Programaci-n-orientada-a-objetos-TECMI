@@ -1,4 +1,4 @@
-package edu.mia.garcia.actividad1.process;
+package edu.mia.garcia.test.process;
 
 public class SWITCH {
     private boolean isOn;
