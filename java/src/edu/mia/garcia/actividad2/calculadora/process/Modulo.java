@@ -9,11 +9,10 @@ public class Modulo {
      */
 
     public static int calcularModulo (int n1, int n2){
-        int totalmodulo = n1;
-        while (totalmodulo >= n2) {
-            totalmodulo = totalmodulo - n2;
+        while (n1 >= n2) {
+            n1 = Resta.calcularResta(n1, n2);
         }
-        return totalmodulo;
+        return n1;
 
     }
 }

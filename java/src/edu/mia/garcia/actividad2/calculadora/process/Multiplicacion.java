@@ -2,6 +2,8 @@ package edu.mia.garcia.actividad2.calculadora.process;
 
 
 public class Multiplicacion {
+
+
     /**
      * Este metodo recibe dos enteros y devuelve su multiplicacion
      *
@@ -10,11 +12,11 @@ public class Multiplicacion {
      */
 
     public static int calcularMultiplicacion(int n1, int n2) {
-        int multiplicacipn = 0;
+        int resultado = 0;
         for (int i = 0; i < n2; i++) {
-            multiplicacipn = multiplicacipn + n1;
+            resultado = Suma.calcularSuma(resultado,n1);
         }
-        return multiplicacipn;
+        return resultado;
     }
 }
 

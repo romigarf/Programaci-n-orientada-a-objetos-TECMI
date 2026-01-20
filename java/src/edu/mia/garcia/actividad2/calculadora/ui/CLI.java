@@ -56,7 +56,7 @@ public class CLI {
                 n1= scanner.nextInt();
                 System.out.println("Introduce el valor 2:");
                 n2= scanner.nextInt();
-                System.out.printf("El resultado de : %d %s %d es : %d",n1,"/",n2, Divison.calcularDivision(n1,n2));
+                System.out.printf("El resultado de : %d %s %d es : %d",n1,"/",n2, Division.calcularDivision(n1,n2));
                 //division
                 break;
             case 5:
@@ -68,7 +68,7 @@ public class CLI {
                 //modulo
                 break;
             case 6:
-                System.out.println("Introduce el valor 1:");
+                System.out.println("Introduce el valor:");
                 n1= scanner.nextInt();
                 System.out.println("Introduce el exponente:");
                 n2= scanner.nextInt();
@@ -80,7 +80,9 @@ public class CLI {
                 n1= scanner.nextInt();
                 System.out.println("Introduce el valor del operando");
                 n2= scanner.nextInt();
-                System.out.printf("El resultado del  log con base: %d %s %d es : %d",n1,"y operando",n2,"es:",Logaritmo.calcularLogaritmo(n1,n2));
+                System.out.printf(
+                        "El resultado del log con base %d y operando %d es: %d%n", n1, n2, Logaritmo.calcularLogaritmo(n1, n2)
+                );
                 //logaritmo
                 break;
             case 8:
@@ -92,7 +94,7 @@ public class CLI {
                 //raiz cuadrada
                 break;
             case 9:
-                System.out.println("Adios popo...");
+                System.out.println("Adios...");
                 break;
             default:
                 System.out.println("Opción invalida (Ingrese un número del 1-9");

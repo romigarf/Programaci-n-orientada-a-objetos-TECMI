@@ -2,25 +2,20 @@ package edu.mia.garcia.actividad2.calculadora.process;
 
 public class RaizCuadrada {
     /**
-     * Este metodo recibe dos enteros y devuelve su raiz cuadrda
+     * Este metodo recibe base y operador y devuelve su raiz cuadrda
      *
-     * @return la suma de n1 y n2
+     * @return la raiz cuadrada del operador
      *
      */
 
     public static int calcularRaizCuadrada(int n1, int n2) {
         int numero = 1;
         while (true) {
-            int cuadrado = 0;
-            int i = 0;
-            while (i < numero) {
-                cuadrado = cuadrado + numero;
-                i++;
-            }
-            if (cuadrado == n2) {
+            numero= Suma.calcularSuma(numero,1);
+            int potencia = Potencia.calcularPotencia(numero,n1);
+            if (potencia==n2){
                 return numero;
             }
-            numero++;
         }
     }
 }

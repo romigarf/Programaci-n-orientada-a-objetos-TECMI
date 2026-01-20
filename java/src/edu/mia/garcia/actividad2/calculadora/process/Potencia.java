@@ -4,20 +4,15 @@ public class Potencia {
     /**
      * Este metodo recibe dos enteros y devuelve su potencia
      *
-     * @return la suma de n1 y n2
+     * @return el valor con su potencia
      *
      */
 
     public static int calcularPotencia(int n1, int n2) {
-        int potencia = 1;
+        int resultado = 1;
         for (int i = 0; i < n2; i++) {
-            int total = 0;
-            for (int o = 0; o < n1; o++) {
-                total = total + potencia;
-            }
-            potencia = total;
+            resultado = Multiplicacion.calcularMultiplicacion(resultado, n1);
         }
-        return potencia;
-
+        return resultado;
     }
 }

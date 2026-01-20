@@ -1,10 +1,10 @@
 package edu.mia.garcia.actividad2.calculadora.process;
 
-public class Divison {
+public class Division {
     /**
-     * Este metodo recibe dos enteros y devuelve su suma
+     * Este metodo recibe dos enteros y devuelve su divison
      *
-     * @return la suma de n1 y n2
+     * @return la division de n1 y n2
      *
      */
     public static int calcularDivision(int n1, int n2) {
